@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "shoppinglist",
+    "slug": "shoppinglist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/shop.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/shop.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/shop.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/shop.png"
+    }
+  }
+}
